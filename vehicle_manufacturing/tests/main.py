@@ -1,4 +1,8 @@
-from raw_data import raw_data
+from datasets import KaggleDatasetCollector as kdc
 
-raw_data()
+def load_dataset():
+    kdc.raw_data(origin_dataset="arnavsmayan/vehicle-manufacturing-dataset")
 
+
+if __name__ == '__main__':
+    load_dataset()
