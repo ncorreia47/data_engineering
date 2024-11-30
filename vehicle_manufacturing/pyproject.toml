@@ -1,0 +1,15 @@
+[tool.poetry]
+name = "vehicle-manufacturing"
+version = "0.1.0"
+description = ""
+authors = ["ncorreia47 <dev.ncorr@gmail.com>"]
+readme = "README.md"
+
+[tool.poetry.dependencies]
+python = "^3.12"
+kagglehub = "^0.3.4"
+
+
+[build-system]
+requires = ["poetry-core"]
+build-backend = "poetry.core.masonry.api"
